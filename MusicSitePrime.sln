@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSitePrimeBackend", "MusicSitePrimeBackend\MusicSitePrimeBackend.csproj", "{ACC07426-F56E-479F-902E-B82CC3B6233E}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicSitePrimeBackend", "MusicSitePrimeBackend\MusicSitePrimeBackend.csproj", "{ACC07426-F56E-479F-902E-B82CC3B6233E}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MusicSitePrimeFrontend", "MusicSitePrimeFrontend\MusicSitePrimeFrontend.esproj", "{4A97EDBC-43C0-47EE-8570-8133583F6586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,17 @@ Global
 		{ACC07426-F56E-479F-902E-B82CC3B6233E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACC07426-F56E-479F-902E-B82CC3B6233E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACC07426-F56E-479F-902E-B82CC3B6233E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A97EDBC-43C0-47EE-8570-8133583F6586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A97EDBC-43C0-47EE-8570-8133583F6586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A97EDBC-43C0-47EE-8570-8133583F6586}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A97EDBC-43C0-47EE-8570-8133583F6586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A97EDBC-43C0-47EE-8570-8133583F6586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A97EDBC-43C0-47EE-8570-8133583F6586}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3607E2F5-30B4-42F1-8E97-D63562520AB5}
 	EndGlobalSection
 EndGlobal
