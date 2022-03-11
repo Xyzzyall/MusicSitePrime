@@ -1,0 +1,18 @@
+ <Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FastEndpoints" Version="3.8.1" />
+      <PackageReference Include="FastEndpoints.Security" Version="3.8.1" />
+      <PackageReference Include="FastEndpoints.Swagger" Version="3.8.1" />
+      <PackageReference Include="FastEndpoints.Validation" Version="3.8.1" />
+      <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+    </ItemGroup>
+
+</Project>
